@@ -75,6 +75,8 @@ object NormalizedDimension {
 
   case class NormalizedLon(precision: Int) extends BitNormalizedDimension(-180d, 180d, precision)
 
+  case class NormalizedHeight(precision: Int) extends BitNormalizedDimension(0d, 10000d, precision)
+
   case class NormalizedTime(precision: Int, override val max: Double) extends BitNormalizedDimension(0d, max, precision)
 
 
