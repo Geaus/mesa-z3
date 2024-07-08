@@ -1,6 +1,6 @@
 import org.locationtech.geomesa.curve.Z3LSFC
 
-object IndexGenerationTest extends App {
+object Z3LTest1 extends App {
 
   // 创建 Z3SFC 实例，使用默认的时间精度
   val sfc = new Z3LSFC()
